@@ -36,7 +36,6 @@ function Input({
           value={selectCurrency}
           onChange={e => onCurrencyChange && onCurrencyChange(e.target.value)}
         >
-
           {currencyOptions.map((currency) => (
             <option key={currency} value={currency}>
               {currency}
